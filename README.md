@@ -48,4 +48,16 @@ Paste this rule:
 ]
 ```
 
-Save the file, then open CopyQ again (e.g., using your shortcut). It should now open **floating**.
+Save the file, then open CopyQ again (e.g., using your shortcut). It should now open **floating**.|
+
+# Install Chromium as a native package
+
+Chromium offers much better performance when installed as a native package instead of Flatpak.
+
+#### First, install Chromium using this tutorial:
+https://ubuntuhandbook.org/index.php/2024/05/install-chromium-ubuntu-2404/
+
+#### Then enable this flag in Chromium for better compatibility and performance with the Wayland protocol:
+
+chrome://flags/#wayland-session-management
+
