@@ -7,6 +7,7 @@ This repository gathers various tips for COSMIC DE.
 - [Make an App Open Floating](#make-an-app-open-floating)
 - [Install Chromium as a Native Package](#install-chromium-as-a-native-package)
 - [Raise Volume Beyond 100% with Custom Keyboard Shortcuts](#raise-volume-beyond-100-with-custom-keyboard-shortcuts)
+- [Customize COSMIC with COSMIC Tweaks](#customize-cosmic-with-cosmic-tweaks)
 - [Improve Audio Quality with Easy Effects and framework-dsp](#improve-audio-quality-with-easy-effects-and-framework-dsp)
 
 ---
@@ -133,6 +134,32 @@ Save the file — the shortcuts take effect immediately without needing to resta
 
 ---
 
+# Customize COSMIC with COSMIC Tweaks
+
+[COSMIC Tweaks](https://github.com/cosmic-utils/tweaks) is a third-party settings app that unlocks extra customization options not available in the default COSMIC Settings.
+
+It offers:
+
+- **Color schemes** — apply community color themes to the whole desktop
+- **Dock** — fine-tune dock behavior and appearance
+- **Panel** — adjust the top bar settings beyond what COSMIC Settings exposes
+- **Layouts** — one-click presets that rearrange the dock and panel to mimic Mac, Ubuntu, Windows, or the default Cosmic layout, making it easier to transition from another OS
+- **Shortcuts** — manage additional keyboard shortcuts
+- **Snapshots** — save and restore complete desktop configuration snapshots
+
+## 1) Install COSMIC Tweaks
+
+Open the **COSMIC App Store**, search for **tweaks**, and install **COSMIC Tweaks**.
+
+Alternatively, install it from the terminal:
+
+```bash
+sudo apt install cosmic-tweaks
+```
+
+## 2) Apply a Layout (optional)
+
+If you are coming from another operating system, open COSMIC Tweaks, go to the **Layouts** section, and pick the preset that matches your previous environment (Mac, Ubuntu, or Windows). This repositions the dock and panel to a familiar arrangement with a single click.
 # Improve Audio Quality with Easy Effects and framework-dsp
 
 [Easy Effects](https://github.com/wwmm/easyeffects) is a powerful audio processing application for PipeWire. Combined with the community presets from [framework-dsp](https://github.com/cab404/framework-dsp), you can significantly improve the sound quality of your speakers or headphones — including the **EEGuide+Exciter** preset shown below.
